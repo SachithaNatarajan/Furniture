@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Showroom - Gallery</title>
+    <link rel="stylesheet" href="styles 1.css">
+    <link rel="stylesheet" href="styles 2.css">
+<style>
+body, h1, h2, h3, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9a8a26;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
+.gallery-image {
+    width: calc(33.33% - 40px);
+    margin: 10px;
+    overflow:scroll;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.gallery-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #4e4a3d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Furniture Showroom</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="aboutt.html">About Us</a></li>
+                <li><a href="contactt.html">Contact Us</a></li>
+                <li><a href="gallery (1).html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gallery</h2>
+            <p>View our beautiful furniture gallery.</p>
+        </section>
+    </main>
+    <main>
+        <section id="image-container">
+            <div class="left-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTo1R67NrAgxW0GIBZ5e8jSv9GgrkNkb-rNA&s" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1AVYVm5hBJhwvVvg56m4rVoV-N9nl8kP7iw&s" alt="Right Image">
+            </div>
+            <div class="left-image">
+                <img src="6.jpg" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="7.jpg" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="8.jpg" alt="Left Image">
+            </div>
+        </section>
+        <section id="image-container">
+            <div class="left-image">
+                <img src="9.jpg" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="11.jpg" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="12.jpg" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="13.jpg" alt="Left Image">
+            </div>
+            <div class="left-image">
+                <img src="14.jpg" alt="Left Image">
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 Furniture Showroom. All rights reserved.</p>
+    </footer>
+</body>
+</html>

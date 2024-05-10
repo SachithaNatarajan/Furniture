@@ -1,0 +1,20 @@
+#image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-image img,
+.right-image img {
+    max-width: 50%; /* Each image takes up to half of the container width */
+    height: auto;
+}
+
+.left-image {
+    flex: 1; /* Left image takes up available space */
+}
+
+.right-image {
+    flex: 1; /* Right image takes up available space */
+    text-align: right; /* Align the right image to the right */
+}
